@@ -1,0 +1,1007 @@
+{
+  "archiveName": "lvmp353",
+  "speciesId": 353,
+  "recordCount": 100,
+  "records": [
+    {
+      "level": 1,
+      "expRequired": 0,
+      "gainHP": 0,
+      "gainAtk": 0,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 2,
+      "expRequired": 300,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 3,
+      "expRequired": 600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 4,
+      "expRequired": 1000,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 5,
+      "expRequired": 1600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 6,
+      "expRequired": 2600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 7,
+      "expRequired": 3600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 8,
+      "expRequired": 4600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 9,
+      "expRequired": 6600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 10,
+      "expRequired": 8600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 11,
+      "expRequired": 11600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 12,
+      "expRequired": 16200,
+      "gainHP": 3,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 13,
+      "expRequired": 21400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 14,
+      "expRequired": 26800,
+      "gainHP": 3,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 15,
+      "expRequired": 32400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 16,
+      "expRequired": 38400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 17,
+      "expRequired": 44400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 18,
+      "expRequired": 50400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 19,
+      "expRequired": 56400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 20,
+      "expRequired": 62400,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 21,
+      "expRequired": 68900,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 22,
+      "expRequired": 76600,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 23,
+      "expRequired": 85600,
+      "gainHP": 3,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 24,
+      "expRequired": 94600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 25,
+      "expRequired": 103600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 26,
+      "expRequired": 116600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 27,
+      "expRequired": 131600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 28,
+      "expRequired": 148600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 29,
+      "expRequired": 172600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 30,
+      "expRequired": 196600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 31,
+      "expRequired": 224600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 32,
+      "expRequired": 254600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 33,
+      "expRequired": 284600,
+      "gainHP": 2,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 34,
+      "expRequired": 314600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 35,
+      "expRequired": 344600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 36,
+      "expRequired": 374600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 37,
+      "expRequired": 404600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 38,
+      "expRequired": 434600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 39,
+      "expRequired": 464600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 1,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 40,
+      "expRequired": 494600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 41,
+      "expRequired": 524600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 42,
+      "expRequired": 554600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 43,
+      "expRequired": 584600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 44,
+      "expRequired": 614600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 45,
+      "expRequired": 644600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 46,
+      "expRequired": 674600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 47,
+      "expRequired": 704600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 48,
+      "expRequired": 734600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 49,
+      "expRequired": 764600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 50,
+      "expRequired": 794600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 51,
+      "expRequired": 824600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 52,
+      "expRequired": 854600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 53,
+      "expRequired": 884600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 54,
+      "expRequired": 914600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 55,
+      "expRequired": 944600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 56,
+      "expRequired": 974600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 57,
+      "expRequired": 1004600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 58,
+      "expRequired": 1034600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 1,
+      "fillA": 0
+    },
+    {
+      "level": 59,
+      "expRequired": 1064600,
+      "gainHP": 0,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 1,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 60,
+      "expRequired": 1094600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 61,
+      "expRequired": 1124600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 62,
+      "expRequired": 1154600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 63,
+      "expRequired": 1184600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 64,
+      "expRequired": 1214600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 65,
+      "expRequired": 1244600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 66,
+      "expRequired": 1274600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 67,
+      "expRequired": 1304600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 68,
+      "expRequired": 1334600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 69,
+      "expRequired": 1364600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 70,
+      "expRequired": 1394600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 71,
+      "expRequired": 1424600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 72,
+      "expRequired": 1454600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 73,
+      "expRequired": 1484600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 74,
+      "expRequired": 1514600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 75,
+      "expRequired": 1544600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 76,
+      "expRequired": 1574600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 77,
+      "expRequired": 1604600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 78,
+      "expRequired": 1634600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 79,
+      "expRequired": 1664600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 0,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 80,
+      "expRequired": 1694600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 81,
+      "expRequired": 1724600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 82,
+      "expRequired": 1754600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 83,
+      "expRequired": 1784600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 84,
+      "expRequired": 1814600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 85,
+      "expRequired": 1844600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 86,
+      "expRequired": 1874600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 87,
+      "expRequired": 1904600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 88,
+      "expRequired": 1934600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 89,
+      "expRequired": 1964600,
+      "gainHP": 1,
+      "gainAtk": 0,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 90,
+      "expRequired": 1994600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 91,
+      "expRequired": 2024600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 92,
+      "expRequired": 2054600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 93,
+      "expRequired": 2084600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 94,
+      "expRequired": 2114600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 95,
+      "expRequired": 2144600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 96,
+      "expRequired": 2174600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 97,
+      "expRequired": 2204600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 98,
+      "expRequired": 2234600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 99,
+      "expRequired": 2264600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    },
+    {
+      "level": 100,
+      "expRequired": 2294600,
+      "gainHP": 1,
+      "gainAtk": 1,
+      "gainSpAtk": 1,
+      "gainDef": 0,
+      "gainSpDef": 0,
+      "fillA": 0
+    }
+  ]
+}

@@ -11,3 +11,21 @@ It builds the following rom:
 To set up the repository, see [INSTALL.md](INSTALL.md).
 
 For contacts and other pret projects, see [pret.github.io](https://pret.github.io/).
+
+## Editing Level-Up Stats via JSON
+
+You can export/import the `lvmp###` level-up stat archives (stored in `data/system_sbin.s`) with:
+
+```bash
+./scripts/lvmp_json.py export
+```
+
+This writes JSON files to `data/monster/levelup/` (one file per `lvmp###` entry).
+
+After editing those JSON files, re-pack them back into `data/system_sbin.s`:
+
+```bash
+./scripts/lvmp_json.py import
+```
+
+Then build the ROM normally.

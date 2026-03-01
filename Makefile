@@ -130,6 +130,8 @@ ROM := pmd_$(BUILD_NAME).gba
 ELF := $(ROM:%.gba=%.elf)
 MAP := $(ROM:%.gba=%.map)
 SYM := $(ROM:%.gba=%.sym)
+ROM_SIZE_BYTES := 0x2000000
+ROM_PADDING_OBJECT := data/unk_9fbd5d0.o
 
 C_SUBDIR = src
 ASM_SUBDIR = asm
@@ -328,6 +330,16 @@ endif
 LDFLAGS = -Map ../../$(MAP)
 $(ELF): $(LD_SCRIPT) $(LD_SCRIPT_DEPS) $(ALL_OBJECTS) libagbsyscall
 	@cd $(BUILD_DIR) && $(LD) $(LDFLAGS) -T ../../$< --print-memory-usage -o ../../$@ $(OBJS_REL) $(LIB) | cat
+	@rom_total_bytes=$$(( $(ROM_SIZE_BYTES) )); \
+	rom_padding_hex=$$(awk 'index($$0, "$(ROM_PADDING_OBJECT)(.rodata)") { getline; if ($$3 ~ /^0x[0-9a-fA-F]+$$/) { print $$3; } exit }' $(MAP)); \
+	if [ -n "$$rom_padding_hex" ]; then \
+		rom_padding_bytes=$$(( $$rom_padding_hex )); \
+		rom_used_bytes=$$(( $$rom_total_bytes - $$rom_padding_bytes )); \
+		rom_used_pct=$$(awk -v used=$$rom_used_bytes -v total=$$rom_total_bytes 'BEGIN { printf "%.2f", (used * 100) / total }'); \
+		rom_free_pct=$$(awk -v free=$$rom_padding_bytes -v total=$$rom_total_bytes 'BEGIN { printf "%.2f", (free * 100) / total }'); \
+		printf "%16s %12d B %9d MB %9s%%\n" "ROM (No Pad):" $$rom_used_bytes $$((rom_total_bytes / 1048576)) "$$rom_used_pct"; \
+		printf "%16s %12d B %9d MB %9s%%\n" "ROM Free:" $$rom_padding_bytes $$((rom_total_bytes / 1048576)) "$$rom_free_pct"; \
+	fi
 	@echo "cd $(BUILD_DIR) && $(LD) $(LDFLAGS) -T ../../$< --print-memory-usage -o ../../$@ <objs> <libs> | cat"
 	$(GBAFIX) $@ -t"$(TITLE)" -c$(GAME_CODE) -m$(MAKER_CODE) -r$(REVISION) --silent
 
