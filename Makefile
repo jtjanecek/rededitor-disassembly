@@ -1,4 +1,4 @@
-TOOLCHAIN := $(DEVKITARM)
+TOOLCHAIN ?= $(DEVKITARM)
 
 ifeq ($(CC),)
 HOSTCC := gcc
@@ -18,6 +18,10 @@ endif
 # thus, manually create the variables for the bin
 # files, or use arm-none-eabi binaries on the system
 # if dkP is not installed on this system
+
+ifneq ($(strip $(REDEDITOR_TOOLCHAIN_BIN)),)
+export PATH := $(REDEDITOR_TOOLCHAIN_BIN):$(PATH)
+endif
 
 ifneq (,$(TOOLCHAIN))
 ifneq ($(wildcard $(TOOLCHAIN)/bin),)
@@ -71,8 +75,17 @@ REVISION    := 0
 
 #### Tools ####
 
+ifneq ($(strip $(REDEDITOR_BASH)),)
+SHELL     := $(REDEDITOR_BASH) -o pipefail
+else
 SHELL     := /bin/bash -o pipefail
+endif
+
+ifneq ($(strip $(REDEDITOR_SHA1SUM)),)
+SHA1SUM   := $(REDEDITOR_SHA1SUM) -c
+else
 SHA1SUM   := sha1sum -c
+endif
 GBAGFX    := tools/gbagfx/gbagfx
 GBAFIX    := tools/gbafix/gbafix
 AIF2PCM   := tools/aif2pcm/aif2pcm
@@ -82,7 +95,11 @@ SCANINC   := tools/scaninc/scaninc
 RAMSCRGEN := tools/ramscrgen/ramscrgen
 DUNGEONJSON := tools/dungeonjson/dungeonjson
 
+ifneq ($(strip $(REDEDITOR_PERL)),)
+PERL := $(REDEDITOR_PERL)
+else
 PERL := perl
+endif
 
 TOOLDIRS := $(filter-out tools/agbcc tools/binutils,$(wildcard tools/*))
 TOOLBASE = $(TOOLDIRS:tools/%=%)

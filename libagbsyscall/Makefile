@@ -1,4 +1,4 @@
-TOOLCHAIN := $(DEVKITARM)
+TOOLCHAIN ?= $(DEVKITARM)
 COMPARE ?= 0
 
 ifeq ($(CC),)
@@ -13,10 +13,18 @@ else
 HOSTCXX := $(CXX)
 endif
 
+ifneq ($(strip $(REDEDITOR_TOOLCHAIN_BIN)),)
+export PATH := $(REDEDITOR_TOOLCHAIN_BIN):$(PATH)
+endif
+
 ifneq (,$(wildcard $(TOOLCHAIN)/base_tools))
 include $(TOOLCHAIN)/base_tools
 else
+ifneq (,$(TOOLCHAIN))
+ifneq ($(wildcard $(TOOLCHAIN)/bin),)
 export PATH := $(TOOLCHAIN)/bin:$(PATH)
+endif
+endif
 PREFIX := arm-none-eabi-
 OBJCOPY := $(PREFIX)objcopy
 export CC := $(PREFIX)gcc
